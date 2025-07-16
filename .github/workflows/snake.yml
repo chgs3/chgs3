@@ -11,9 +11,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # Clona o repositório
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
+      # Gera a animação da cobrinha 🐍
       - name: Gerar a animação da cobrinha 🐍
         uses: Platane/snk@v3
         with:
@@ -21,9 +23,12 @@ jobs:
           outputs: |
             ./github-contribution-grid-snake.svg
 
+      # Faz commit da animação
       - name: Commit animation
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: github-actions@github.com
           message: "gerando snake 🐍"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
