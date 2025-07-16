@@ -34,3 +34,5 @@
 <div style="display: inline_block"><br/>
   <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 </div>
+
+![Snake animation](https://github.com/chgs3/chgs3/blob/output/github-contribution-grid-snake.svg)
