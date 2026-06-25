@@ -2,7 +2,7 @@
 
 - 📚 Estou cursando Ciência da Computação pelo Centro de Informática da UFPE.
 - 🔭 Atualmente trabalho com Desenvolvimento Java.
-- 🌱 Estou iniciando os estudos com Javascript.
+- 🌱 Possuo experiência com algumas stacks.
 
 ## Formas de entrar em contato comigo:
 
